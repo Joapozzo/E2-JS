@@ -66,9 +66,6 @@ pizzas.forEach((pizza) => {
   if (pizza.precio <= 600) {
     console.log(`${pizza.nombre} cuesta $ ${pizza.precio}`);
   }
-  else {
-    console.log(`No disponemos de pizzas menores a ese precio`);
-  }
 })
 
 console.log("")
